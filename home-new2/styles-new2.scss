@@ -84,8 +84,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  height: 45rem;
+  height: 50rem;
   padding-right: 0.5rem;
 }
 .top-news-photos li {
@@ -93,21 +92,17 @@ li {
   align-items: center;
 }
 .top-news-photo {
-  height: 13.4rem;
-  width: 13.4rem;
-  object-fit: cover;
-}
-.jeff-photo {
-  height: 9.2rem;
+  height: 10rem;
   width: 13.4rem;
   object-fit: cover;
 }
 
-.text-under-jeff {
+.text-under-photos {
   height: 4rem;
   width: 13.4rem;
   background-color: #0e0d0d;
   color: white;
+  margin-bottom: 2.3rem;
 }
 
 .top-news-photos a:visited,
@@ -135,12 +130,12 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   height: 109rem;
   padding-right: 0.5rem;
 }
 .popular-text-photo {
-  height: 13.4rem;
+  height: 10rem;
   width: 13.4rem;
   object-fit: cover;
 }
