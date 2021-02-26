@@ -17,6 +17,11 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style: none;
+  text-align: center;
+}
+
 // 1.header
 // 1.a.top-header with logo
 
@@ -59,7 +64,7 @@ a {
 }
 
 // 2.main
-// 2.a.main starting with "top news" text
+// 2.a.main "top news" text
 
 #top-news-text {
   display: flex;
@@ -83,10 +88,31 @@ a {
   height: 45rem;
   padding-right: 0.5rem;
 }
+.top-news-photos li {
+  display: flex;
+  align-items: center;
+}
 .top-news-photo {
   height: 13.4rem;
   width: 13.4rem;
   object-fit: cover;
+}
+.jeff-photo {
+  height: 9.2rem;
+  width: 13.4rem;
+  object-fit: cover;
+}
+
+.text-under-jeff {
+  height: 4rem;
+  width: 13.4rem;
+  background-color: #0e0d0d;
+  color: white;
+}
+
+.top-news-photos a:visited,
+.top-news-photos a:link {
+  color: white;
 }
 
 //2.b.popular-text
@@ -117,6 +143,11 @@ a {
   height: 13.4rem;
   width: 13.4rem;
   object-fit: cover;
+}
+
+.popular-text-photos a:visited,
+.popular-text-photos a:link {
+  color: white;
 }
 
 // 3.a.footer with logo
