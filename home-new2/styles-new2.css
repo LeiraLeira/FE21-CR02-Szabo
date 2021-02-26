@@ -16,6 +16,11 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style: none;
+  text-align: center;
+}
+
 .top-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -107,11 +112,39 @@ a {
   padding-right: 0.5rem;
 }
 
+.top-news-photos li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .top-news-photo {
   height: 13.4rem;
   width: 13.4rem;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.jeff-photo {
+  height: 9.2rem;
+  width: 13.4rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.text-under-jeff {
+  height: 4rem;
+  width: 13.4rem;
+  background-color: #0e0d0d;
+  color: white;
+}
+
+.top-news-photos a:visited,
+.top-news-photos a:link {
+  color: white;
 }
 
 #popular-text {
@@ -158,6 +191,11 @@ a {
   width: 13.4rem;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.popular-text-photos a:visited,
+.popular-text-photos a:link {
+  color: white;
 }
 
 .footer-with-logo {
