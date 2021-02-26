@@ -21,6 +21,10 @@ li {
   text-align: center;
 }
 
+.navbar-footer a {
+  font-size: 16px;
+}
+
 .top-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -133,6 +137,18 @@ li {
   margin-bottom: 2.3rem;
 }
 
+.text-under-photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 13px;
+  padding-right: 1.1rem;
+  padding-left: 1.1rem;
+}
+
 .top-news-photos a:visited,
 .top-news-photos a:link {
   color: white;
@@ -177,6 +193,15 @@ li {
   padding-right: 0.5rem;
 }
 
+.popular-text-photos li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .popular-text-photo {
   height: 10rem;
   width: 13.4rem;
@@ -207,7 +232,7 @@ li {
 }
 
 .popular-text-photos {
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 .navbar-footer {
