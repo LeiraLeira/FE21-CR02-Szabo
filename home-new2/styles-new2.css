@@ -171,14 +171,14 @@ a {
       -ms-flex-align: center;
           align-items: center;
   background-color: #0e0d0d;
-  height: 6.2rem;
-  padding-top: 0.7em;
-  position: relative;
-  margin-top: 4.5rem;
 }
 
 .logo2 {
   height: 2.3rem;
+}
+
+.popular-text-photos {
+  margin-bottom: 5rem;
 }
 
 .navbar-footer {
@@ -219,6 +219,20 @@ p {
   font-size: 10px;
   text-align: center;
   padding-top: 1rem;
-  padding-bottom: 1.6rem;
+  padding-bottom: 1.8rem;
+}
+
+.footer-with-logo {
+  padding: 1.5rem 0 1rem;
+}
+
+.navbar-footer .signatur {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 0.5rem;
 }
 /*# sourceMappingURL=styles-new2.css.map */
