@@ -39,6 +39,7 @@ a {
 .navbar-header {
   background-color: #0e0d0d;
   padding: 0.65rem 1rem;
+  margin-bottom: 1.8rem;
 }
 
 .navbar-header ul {
@@ -78,15 +79,146 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 0.2rem;
-  height: 0.5rem;
-  padding-top: 3rem;
-  height: 0.2rem;
+  height: 2.5rem;
   background-color: #c4c4c4;
+  margin-bottom: 1.7rem;
 }
 
 #top-news-text a:visited,
 #top-news-text a:link {
   color: black;
+}
+
+.top-news-photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 45rem;
+  padding-right: 0.5rem;
+}
+
+.top-news-photo {
+  height: 13.4rem;
+  width: 13.4rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#popular-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 2.5rem;
+  background-color: #c4c4c4;
+  margin-top: 1.7rem;
+  margin-bottom: 1.7rem;
+}
+
+#top-news-text a:visited,
+#top-news-text a:link {
+  color: black;
+}
+
+.popular-text-photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 109rem;
+  padding-right: 0.5rem;
+}
+
+.popular-text-photo {
+  height: 13.4rem;
+  width: 13.4rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.footer-with-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #0e0d0d;
+  height: 6.2rem;
+  padding-top: 0.7em;
+  position: relative;
+  margin-top: 4.5rem;
+}
+
+.logo2 {
+  height: 2.3rem;
+}
+
+.navbar-footer {
+  background-color: #0e0d0d;
+  padding: 0.65rem 1rem;
+  margin-bottom: 1.8rem;
+}
+
+.navbar-footer ul {
+  list-style: none;
+}
+
+.navbar-footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 0.2rem;
+  height: 3rem;
+}
+
+.navbar-footer a:visited,
+.navbar-footer a:link {
+  color: white;
+}
+
+.navbar-footer a {
+  font-size: 16px;
+}
+
+p {
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1.6rem;
 }
 /*# sourceMappingURL=styles-new2.css.map */
