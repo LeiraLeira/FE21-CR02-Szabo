@@ -38,6 +38,7 @@ a {
 .navbar-header {
   background-color: #0e0d0d;
   padding: 0.65rem 1rem;
+  margin-bottom: 1.8rem;
   ul {
     list-style: none;
   }
@@ -64,16 +65,103 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 0.2rem;
-  height: 0.5rem;
-
-  padding-top: 3rem;
-  height: 0.2rem;
+  height: 2.5rem;
   background-color: #c4c4c4;
+  margin-bottom: 1.7rem;
 }
 #top-news-text a:visited,
 #top-news-text a:link {
   color: black;
 }
-#top-news-text a {
+
+// 2.a.a.top-news-photos
+.top-news-photos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 45rem;
+  padding-right: 0.5rem;
+}
+.top-news-photo {
+  height: 13.4rem;
+  width: 13.4rem;
+  object-fit: cover;
+}
+
+//2.b.popular-text
+#popular-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+  background-color: #c4c4c4;
+  margin-top: 1.7rem;
+  margin-bottom: 1.7rem;
+}
+#top-news-text a:visited,
+#top-news-text a:link {
+  color: black;
+}
+
+// 2.b.b.popular text photos
+.popular-text-photos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 109rem;
+  padding-right: 0.5rem;
+}
+.popular-text-photo {
+  height: 13.4rem;
+  width: 13.4rem;
+  object-fit: cover;
+}
+
+// 3.a.footer with logo
+.footer-with-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0e0d0d;
+  height: 6.2rem;
+  padding-top: 0.7em;
+  position: relative;
+  margin-top: 4.5rem;
+}
+.logo2 {
+  height: 2.3rem;
+}
+
+// 3.b.footer with navbar und Signatur
+
+.navbar-footer {
+  background-color: #0e0d0d;
+  padding: 0.65rem 1rem;
+  margin-bottom: 1.8rem;
+  ul {
+    list-style: none;
+  }
+}
+.navbar-footer ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.2rem;
+  height: 3rem;
+}
+.navbar-footer a:visited,
+.navbar-footer a:link {
+  color: white;
+}
+.navbar-footer a {
+  font-size: 16px;
+}
+p {
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1.6rem;
 }
