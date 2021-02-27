@@ -508,20 +508,5 @@ p {
         -ms-flex-align: center;
             align-items: center;
   }
-  .navbar-footer-topics {
-    -webkit-box-ordinal-group: 1;
-        -ms-flex-order: 0;
-            order: 0;
-  }
-  .footer-with-logo {
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
-  }
-  .signatur {
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
-  }
 }
 /*# sourceMappingURL=styles-new2.css.map */
