@@ -56,6 +56,45 @@ li {
   display: none;
 }
 
+//jeff-container
+
+.jeff-container {
+  width: 70rem;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+h4 {
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+.files-safety-container {
+  width: 70rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.spotify-container {
+  width: 70rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+a:visited,
+a:link {
+  color: black;
+}
 //1.b.sub-header with navbar
 
 .navbar-header {
@@ -82,16 +121,7 @@ li {
 }
 
 // 2.main
-// 2.a.main "t
-
-.datum {
-  display: flex;
-  justify-content: space-around;
-  margin-right: 1rem;
-}
-.datum {
-  display: none;
-}
+// 2.a.main "top news" text
 
 #top-news-text {
   display: flex;
@@ -318,11 +348,6 @@ p {
     grid-template-columns: 1fr;
     margin-bottom: 3rem;
   }
-  .datum {
-    display: flex;
-    justify-content: space-around;
-    margin-right: 1rem;
-  }
   .text-under-photos1 {
     margin: 0;
   }
@@ -339,14 +364,6 @@ p {
     height: 0.5rem;
   }
 
-  // datum
-  .datum {
-    // display: flex;
-    // justify-content: space-around;
-    height: 3.5rem;
-    margin-left: 73rem;
-    font-size: 1.3rem;
-  }
   //top news text
   #top-news-text {
     display: flex;
