@@ -99,7 +99,6 @@ li {
 
 // 2.a.a.top-news-photos
 .top-news-photos {
-  border: 3px solid red;
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
@@ -141,6 +140,7 @@ li {
   font-size: 13px;
   padding-right: 1.1rem;
   padding-left: 1.1rem;
+  padding-top: 1rem;
 }
 
 .top-news-photos a:visited,
@@ -169,7 +169,6 @@ li {
 
 // 2.b.b.popular text photos
 .popular-text-photos1 {
-  border: 3px solid red;
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
@@ -182,7 +181,6 @@ li {
   // padding-right: 0.5rem;
 }
 .popular-text-photos2 {
-  border: 3px solid red;
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
@@ -309,6 +307,10 @@ p {
   .banner-3 {
     display: grid;
     grid-template-columns: 1fr;
+    margin-bottom: 3rem;
+  }
+  .text-under-photos1 {
+    margin: 0;
   }
 
   .navbar-header {
@@ -321,6 +323,27 @@ p {
     padding-right: 45rem;
     padding-top: 0.2rem;
     height: 0.5rem;
+  }
+
+  //top news text
+  #top-news-text {
+    display: flex;
+    justify-content: start;
+    padding-left: 1rem;
+  }
+
+  //popular text
+  #popular-text {
+    display: flex;
+    justify-content: start;
+    padding-left: 1rem;
+  }
+
+  //top news text container!!!!!!!!!!!!
+  #top-news-text,
+  #popular-text {
+    margin-left: 6rem;
+    margin-right: 6rem;
   }
 
   .top-news-photos,
@@ -344,5 +367,25 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
+  }
+  .signatur p {
+    font-size: 16px;
+  }
+  .navbar-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    order: -1;
+    align-items: center;
+  }
+  .navbar-footer p {
+  }
+  .navbar-footer-topics {
+    order: 0;
+  }
+  .footer-with-logo {
+    order: 1;
+  }
+  .signatur {
+    order: 2;
   }
 }
