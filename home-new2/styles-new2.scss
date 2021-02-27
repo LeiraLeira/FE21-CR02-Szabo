@@ -82,7 +82,7 @@ li {
 }
 
 // 2.main
-// 2.a.main "t
+// 2.a.main
 
 .datum {
   display: flex;
@@ -125,6 +125,7 @@ li {
 .text-under-photos1 {
   height: 4rem;
   width: 13.4rem;
+  margin-top: -0.5rem;
   background-color: #0e0d0d;
   color: white;
   margin-bottom: 2.3rem;
@@ -139,6 +140,7 @@ li {
 .text-under-photos-oben {
   height: 4rem;
   width: 13.4rem;
+  margin-top: -0.5rem;
   background-color: #0e0d0d;
   color: white;
   margin-bottom: 2.3rem;
@@ -181,13 +183,6 @@ li {
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
-  // display: grid;
-  // grid-template-columns: 1fr;
-  // justify-items: center;
-  // align-items: center;
-  // justify-content: center;
-  // height: 109rem;
-  // padding-right: 0.5rem;
 }
 .popular-text-photos2 {
   display: grid;
@@ -324,7 +319,12 @@ p {
     margin-right: 1rem;
   }
   .text-under-photos1 {
-    margin: 0;
+    height: 4rem;
+    width: 13.4rem;
+    margin-top: -0.5rem;
+    background-color: #0e0d0d;
+    color: white;
+    margin-bottom: 2.3rem;
   }
 
   .navbar-header {
