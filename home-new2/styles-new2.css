@@ -117,7 +117,6 @@ li {
 }
 
 .top-news-photos {
-  border: 3px solid red;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
@@ -177,6 +176,7 @@ li {
   font-size: 13px;
   padding-right: 1.1rem;
   padding-left: 1.1rem;
+  padding-top: 1rem;
 }
 
 .top-news-photos a:visited,
@@ -211,7 +211,6 @@ li {
 }
 
 .popular-text-photos1 {
-  border: 3px solid red;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
@@ -220,7 +219,6 @@ li {
 }
 
 .popular-text-photos2 {
-  border: 3px solid red;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
@@ -399,6 +397,10 @@ p {
     display: grid;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+    margin-bottom: 3rem;
+  }
+  .text-under-photos1 {
+    margin: 0;
   }
   .navbar-header {
     height: 3rem;
@@ -411,6 +413,29 @@ p {
     padding-right: 45rem;
     padding-top: 0.2rem;
     height: 0.5rem;
+  }
+  #top-news-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    padding-left: 1rem;
+  }
+  #popular-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    padding-left: 1rem;
+  }
+  #top-news-text,
+  #popular-text {
+    margin-left: 6rem;
+    margin-right: 6rem;
   }
   .top-news-photos,
   .popular-text-photos1 {
@@ -441,6 +466,36 @@ p {
     -ms-grid-columns: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
+  }
+  .signatur p {
+    font-size: 16px;
+  }
+  .navbar-footer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .navbar-footer-topics {
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+  }
+  .footer-with-logo {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .signatur {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
   }
 }
 /*# sourceMappingURL=styles-new2.css.map */
